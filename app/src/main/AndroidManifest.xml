@@ -12,21 +12,32 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme.NoActionBar">
+
+        <!-- <activity -->
+        <!-- android:name=".ScrollingActivity" -->
+        <!-- android:label="@string/title_activity_scrolling" -->
+        <!-- android:theme="@style/AppTheme.NoActionBar" /> -->
+        <!-- <activity android:name=".Frames" /> -->
         <activity
-            android:name=".LoginActivity"
-            android:label="@string/app_name">
+            android:name=".Perfil2"
+            android:label="@string/title_activity_perfil2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Feed"
+            android:label="@string/title_activity_feed">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+            android:theme="@style/AppTheme.NoActionBar">
         </activity>
         <activity
-            android:name=".ScrollingActivity"
-            android:label="@string/title_activity_scrolling"
+            android:name=".Cadastro1"
+            android:label="@string/title_activity_cadastro1"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".Perfil"></activity>
+        <activity android:name=".Estante"></activity>
     </application>
 
 </manifest>
