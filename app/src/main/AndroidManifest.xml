@@ -38,6 +38,16 @@
             android:label="@string/title_activity_cadastro1"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".Estante"></activity>
+        <activity android:name=".Perfil" />
+        <activity
+            android:name=".FullscreenActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_fullscreen"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".BarraLateral"
+            android:label="@string/title_activity_barra_lateral"
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>
